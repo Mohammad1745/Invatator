@@ -1,6 +1,6 @@
 <template>
   <div class='flex justify-center gap-5'>
-    <a href='http://192.168.0.103:8000/' :class='googleLinkClass'><i class="fab fa-google"></i></a>
+    <a href='http://192.168.0.103:8000/auth/redirect' :class='googleLinkClass'><i class="fab fa-google"></i></a>
     <a href='http://192.168.0.103:8000/' :class='facebookLinkClass'><i class="fab fa-facebook-f"></i></a>
     <a href='http://192.168.0.103:8000/' :class='githubLinkClass'><i class="fab fa-github-square"></i></a>
   </div>
